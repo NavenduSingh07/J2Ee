@@ -5,7 +5,7 @@ public class jdbcDemo {
 	public static void main(String[] args) {
 		Connection con = null;
 		Statement stmt = null;
-		String qry ="insert into btm.student value(3,'Raj',65.46)";
+		String qry ="update btm.student set name='raja' where id=3";
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Driver class Loaded & Register");
@@ -14,7 +14,7 @@ public class jdbcDemo {
 			stmt = con.createStatement();
 			System.out.println("Platform created");
 			stmt.executeUpdate(qry);
-			System.out.println("data inserted!!!");
+			System.out.println("data updated!!!");
 			}catch(ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
 		}
