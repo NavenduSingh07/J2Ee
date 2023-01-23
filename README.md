@@ -1,2 +1,2 @@
 # J2Ee
-jdbcDemo.java  insert data in database server
+jdbcDemo1.java  insert data in database server
