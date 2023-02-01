@@ -7,3 +7,4 @@ InsertMultipal.java //code to insert multiple data into database server by using
 FetchData.java  //Code to fetch all records from the cursor or buffer memory by using ResultSet Interface:
 FetchDataOnId.java  //Code to fetch a particular record from the cursor or buffer memory where id=? .
 FetchDataOnName.java  //Code to fetch a particular record from the cursor or buffer memory where name=? .
+LoginValidation.java //code for Login Validation using Standard step of JDBC.
