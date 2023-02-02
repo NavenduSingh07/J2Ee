@@ -8,3 +8,4 @@ FetchData.java  //Code to fetch all records from the cursor or buffer memory by 
 FetchDataOnId.java  //Code to fetch a particular record from the cursor or buffer memory where id=? .
 FetchDataOnName.java  //Code to fetch a particular record from the cursor or buffer memory where name=? .
 LoginValidation.java //code for Login Validation using Standard step of JDBC.
+FetchDataOne.java //code to fetch a record from the cursor or buffer memory by using ResultSet Interface.
